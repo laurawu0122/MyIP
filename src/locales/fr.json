@@ -207,16 +207,6 @@
         "GoPrevious": "Carte précédente",
         "RefreshRuleTests": "Actualiser les tests de règles"
     },
-    "page": {
-        "title": "IPCheck.ing - Vérifier mon adresse IP et géolocalisation - Vérifier l'adresse IP de connexion WebRTC - Test de fuite DNS - Test de vitesse - Jason Ng Open Source",
-        "description": "Une boîte à outils IP améliorée. Facile pour vérifier vos adresses IP, les informations IP, vérifier les fuites DNS, examiner les connexions WebRTC et tester la disponibilité des sites web.",
-        "keywords": "MonIP, Outil IP, Mon IP, Vérification IP, Recherche IP, Test de fuite DNS, Test WebRTC, Test de vitesse",
-        "footerName": "Créateurs : Jason Ng, Seven Yu & ChatGPT",
-        "footerLink": "https://github.com/jason5ng32/MyIP",
-        "copyRightName": "Originalement de ",
-        "copyRightLink": "https://ipcheck.ing",
-        "copyRightLinkName": "IPCheck.ing"
-    },
     "addBingMapKey": {
         "Title": "Ajouter une clé API Bing Map",
         "Note": "Après l'ajout, la carte peut être affichée dans les informations IP. La clé API sera uniquement enregistrée dans le navigateur actuel pour une utilisation ultérieure et ne sera pas téléchargée sur le serveur.",
