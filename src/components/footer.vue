@@ -1,7 +1,5 @@
 <template>
   <footer>
-  
-
 
     <div class="offcanvas offcanvas-end mt-5" :class="[isMobile ? ' w-100' : '']" tabindex="-1" id="About"
       aria-labelledby="AboutLabel" :data-bs-theme="isDarkMode ? 'dark' : 'light'">
@@ -86,12 +84,6 @@
       </div>
     </div>
 
-    <div id="copyright" v-if="!siteValidate">
-      <p class="text-center fs-6 fw-light" style="opacity: 0.5;">
-        {{ $t('page.copyRightName') }} <a :href="$t('page.copyRightLink')" class="link-underline-light" target="_blank"
-          :class="[isDarkMode ? 'dark-mode link-light' : 'link-dark']">{{ $t('page.copyRightLinkName') }}</a>
-      </p>
-    </div>
   </footer>
 </template>
 
