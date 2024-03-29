@@ -1,20 +1,6 @@
 <template>
   <footer>
-    <div id="copyleft">
-      <p class="text-center">{{ $t('page.footerName') }} <a :href="$t('page.footerLink')" class="link-dark"
-          target="_blank" @click="$trackEvent('Footer', 'FooterClick', 'Github');" aria-label="Github"><i
-            class="bi bi-github" :class="{ 'dark-mode': isDarkMode }"
-            v-tooltip="{ title: $t('Tooltips.GithubLink'), placement: 'top' }"></i></a>
-      </p>
-    </div>
-
-    <div id="about" class="text-center mb-2">
-      <a class="link link-underline-offset link-underline-opacity-0" :class="[isDarkMode ? 'link-info' : 'link-dark']"
-        data-bs-toggle="offcanvas" href="#About" role="button" aria-controls="About"
-        @click="$trackEvent('Footer', 'FooterClick', 'About');">
-        {{ $t('about.Title') }} <i class="bi bi-arrow-left-circle-fill"></i>
-      </a>
-    </div>
+  
 
 
     <div class="offcanvas offcanvas-end mt-5" :class="[isMobile ? ' w-100' : '']" tabindex="-1" id="About"
@@ -155,8 +141,4 @@ export default {
 }
 </script>
 
-<style scoped>
-#About {
-  z-index: 1051;
-}
-</style>
+
